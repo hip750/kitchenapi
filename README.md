@@ -216,9 +216,3 @@ kitchenapi/
 ## ライセンス
 
 このプロジェクトはMITライセンスの下で公開されています。
-
-<br>
-
----
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
