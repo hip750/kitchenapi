@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/kitchen
+    username: kitchen
+    password: secret
+    hikari:
+      maximum-pool-size: 10
+  jpa:
+    hibernate:
+      ddl-auto: update     # 実務は Flyway 推奨
+    properties:
+      hibernate:
+        format_sql: true
+        jdbc.time_zone: UTC

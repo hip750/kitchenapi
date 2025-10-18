@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev   # 開発デフォルトは dev（テストは @ActiveProfiles("test")）
+
+management:
+  endpoints:
+    web.exposure.include: health,info
+
+logging:
+  level:
+    org.hibernate.SQL: warn
+    org.hibernate.type.descriptor.sql: warn
+
+app:
+  security:
+    jwt-secret: "change-this-secret-to-32bytes-minimum-123456"
+    jwt-exp-minutes: 120

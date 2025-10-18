@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn clean compile:*)",
+      "Bash(./mvnw clean compile:*)",
+      "Bash(./mvnw test:*)",
+      "Bash(docker compose:*)",
+      "Bash(./mvnw spring-boot:run:*)",
+      "Bash(curl:*)",
+      "Bash(TOKEN=\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbGljZUBleGFtcGxlLmNvbSIsInVpZCI6MSwiaWF0IjoxNzYwNjY5OTM2LCJleHAiOjE3NjA2NzcxMzZ9.ePxdaNSaDcRm6u21xHhWfDyfZzDalA0Z3_TkC6WE5eU\")",
+      "Bash(TOKEN=\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbGljZUBleGFtcGxlLmNvbSIsInVpZCI6MSwiaWF0IjoxNzYwNjcwMDM3LCJleHAiOjE3NjA2NzcyMzd9.Gk2pCxRB-V4tWfi-30Hzo5cs_R2VV8WLap8Fb8EEc9U\")",
+      "Bash(TOKEN=\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbGljZUBleGFtcGxlLmNvbSIsInVpZCI6MSwiaWF0IjoxNzYwNjcwMTI0LCJleHAiOjE3NjA2NzczMjR9.KJOI6tYAcv5lJ1rd7x6ORRpoKuxklO14T2bQr3QBI_A\")",
+      "Read(//private/tmp/**)",
+      "Bash(python3:*)",
+      "Bash(pkill:*)",
+      "Read(//Users/kawajirihajime/Documents/ポートフォリオ_2025/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

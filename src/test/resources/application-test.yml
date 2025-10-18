@@ -1,0 +1,8 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop  # Auto-create schema for tests
+    properties:
+      hibernate:
+        jdbc.time_zone: UTC
+        format_sql: true
